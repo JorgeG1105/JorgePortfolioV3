@@ -124,7 +124,7 @@ h1,h2,h3,h4,h5,h6 {
 
 /*--------------------------------MEDIA QUERIES-----------------------------*/
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
 	.HeroContent h1 {
 		font-size: 35px;
 	}
