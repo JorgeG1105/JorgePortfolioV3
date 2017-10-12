@@ -55,13 +55,17 @@ h1,h2,h3,h4,h5,h6 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	
+}
+
+.HeroContent {
+	width: 100%;
 }
 
 
+
 .HeroContent h1 {
-	font-weight: 300;
-	font-size: 50px;
+	font-weight: 100;
+	font-size: 70px;
 }
 
 
@@ -120,11 +124,26 @@ h1,h2,h3,h4,h5,h6 {
 
 /*--------------------------------MEDIA QUERIES-----------------------------*/
 
+@media screen and (min-width: 320px) {
+	.HeroContent h1 {
+		font-size: 35px;
+	}
+
+	.WhatCanIDo strong {
+		font-size: 30px;
+	}
+
+	.toolsTitle {
+		padding: 30px 0;
+		font-size: 45px;
+	}
+}
+
 @media screen and (min-width: 550px){
 	.Hero {
 		background:
 		linear-gradient(
-			rgba(83, 105, 118, 0.45),
+			rgba(83, 105, 200, 0.45),
 			rgba(41, 46, 73, 0.50)
 		),
 
