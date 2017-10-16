@@ -4,7 +4,7 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6, .card h4 {
 	font-family: 'Lato', sans-serif;
 }
 
@@ -120,7 +120,45 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /*-------------------------------Works Styles------------------------------*/
+.works {
+	background-color: #002645;
+	color: #fff;
+}
 
+.works h2 {
+	font-weight: 100;
+	font-size: 50px;
+	padding: 30px;
+
+}
+
+.card {
+	color: #000;
+	width: 20rem;
+}
+
+.card h4 {
+	font-weight: 400;
+	color: #002645;
+}
+
+.worksButton {
+	border-radius: 50px;
+	color: #002645;
+	padding: 10px 25px;
+	background-color: #fff;
+	text-align: center;
+	border: 3px solid #002645;
+	display: inline-block;
+}
+
+.worksButton:hover {
+	background-color: #002645;
+	padding: 10px 50px;
+	border: 3px solid #fff;
+	color: #fff;
+	transition: all .3s ease-in-out;
+}
 
 /*--------------------------------MEDIA QUERIES-----------------------------*/
 
