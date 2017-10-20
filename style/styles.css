@@ -123,6 +123,7 @@ h1,h2,h3,h4,h5,h6, .card h4 {
 .works {
 	background-color: #002645;
 	color: #fff;
+	margin: 20px auto;
 }
 
 .works h2 {
@@ -176,6 +177,20 @@ h1,h2,h3,h4,h5,h6, .card h4 {
 		padding: 30px 0;
 		font-size: 45px;
 	}
+
+	.card {
+		width: 15rem;
+	}
+}
+
+@media screen and (max-width: 414px){
+	.card {
+		margin: 20px auto;
+	}
+
+	.HeroContent h1 {
+		font-size: 50px;
+	}
 }
 
 @media screen and (min-width: 550px){
@@ -193,4 +208,10 @@ h1,h2,h3,h4,h5,h6, .card h4 {
 		background-repeat: no-repeat;
 	}
 
+}
+
+@media screen and (min-width: 570px) {
+	.card {
+		margin: 20px auto;
+	}
 }
