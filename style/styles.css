@@ -123,7 +123,8 @@ h1,h2,h3,h4,h5,h6, .card h4 {
 .works {
 	background-color: #002645;
 	color: #fff;
-	margin: 20px auto;
+	margin-top: 20px;
+	margin: auto;
 }
 
 .works h2 {
@@ -161,6 +162,50 @@ h1,h2,h3,h4,h5,h6, .card h4 {
 	color: #fff;
 	transition: all .3s ease-in-out;
 }
+
+/*-------------------------Contact form Styles------------------------------------*/
+
+.contact {
+	margin-top: 40px;
+	padding: 20px;
+}
+
+.contact .form-control {
+	margin: 10px;
+}
+
+/*----------------------------------Footer Styles-----------------------------*/
+
+.footer {
+	background-color: #222222;
+	padding: 20px;
+}
+
+.footer p {
+	color: #797B80;
+	margin-bottom: 0px;
+}
+
+.footer i {
+	color: #797B80;
+}
+
+.footer i:hover {
+	color: #fff;
+	transition: color .3s ease-in-out;
+}
+
+.footer .socialLinks a {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.footer p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
 
 /*--------------------------------MEDIA QUERIES-----------------------------*/
 
