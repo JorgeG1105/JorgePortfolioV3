@@ -17,6 +17,7 @@ h1,h2,h3,h4,h5,h6, .card h4 {
 	border: 3px solid white;
 	display: inline-block;
 	margin-top: 40px;
+	transition: all .3s ease-in-out;
 }
 
 .button:hover {
@@ -153,6 +154,7 @@ h1,h2,h3,h4,h5,h6, .card h4 {
 	text-align: center;
 	border: 3px solid #002645;
 	display: inline-block;
+	transition: all .3s ease-in-out;
 }
 
 .worksButton:hover {
