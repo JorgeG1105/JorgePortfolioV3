@@ -53,17 +53,17 @@
 			<div class="row text-center">
 				<div class="col-xl-4">
 					<i class="fa fa-code fa-3x" aria-hidden="true"></i>
-					<h2><strong>Code</strong></h1>
+					<h2><strong>Code</strong></h2>
 					<p class="text-left">I create websites with HTML5, CSS3 and Javascript. I am comfortable with frameworks but I have no problem getting the job done without a framework as well.</p>
 				</div><!--end col-->
 				<div class="col-xl-4">
 					<i class="fa fa-handshake-o fa-3x" aria-hidden="true"></i>
-					<h2><strong>Collaboration</strong></h1>
+					<h2><strong>Collaboration</strong></h2>
 					<p class="text-left">I am in constant communication 100% of the way to make sure that your product is exactly the way you want it to be, right down to the pixel!</p>
 				</div>
 				<div class="col-xl-4">
 					<i class="fa fa-diamond fa-3x" aria-hidden="true"></i>
-					<h2><strong>UX/UI</strong></h1>
+					<h2><strong>UX/UI</strong></h2>
 					<p class="text-left">I can take an existing design you provide and create it for you or I can create one from scratch as well.</p>
 				</div>
 			</div><!--end row-->
@@ -182,34 +182,34 @@
 					<p class="jorgeInfo text-left">Tell me a little bit about yourself and your project. Then I will get in contact with you to schedule a time to chat. You can expect a reply within a day at most.</p>
 				</div>
 			</div><!--end row-->
-			<form>
+			<form action="form_process.php" method="post" name="contact_form">
 				<div class="form-row">
 					<div class="col-lg-3 offset-lg-3 col-sm-12">
-						<input type="text" class="form-control" placeholder="First Name *" required>
+						<input type="text" class="form-control" placeholder="First Name *" name="firstname" required>
 					</div><!--end col-->
 					<div class="col-lg-3 col-sm-12">
-						<input type="text" class="form-control" placeholder="Last Name *" required>
+						<input type="text" class="form-control" placeholder="Last Name *" name="lastname" required>
 					</div><!--end col-->
 				</div><!--end row-->
 				<div class="form-row">
 					<div class="col-lg-3 offset-lg-3 col-sm-12">
-						<input type="text" class="form-control" placeholder="Phone Number">
+						<input type="text" class="form-control" placeholder="Phone Number" name="number">
 					</div><!--end col-->
 					<div class="col-lg-3 col-sm-12">
-						<input type="email" class="form-control" placeholder="Email *" required>
+						<input type="email" class="form-control" placeholder="Email *" name="email" required>
 					</div><!--end col-->
 				</div><!--end row-->
 				<div class="form-row">
 					<div class="col-lg-3 offset-lg-3 col-sm-12">
-						<input type="text" class="form-control" placeholder="What is 5+2? *" required>
+						<input type="text" class="form-control" placeholder="What is 5+2? *" name="security" required>
 					</div><!--end col-->
 				</div><!--end row-->
 				<div class="row">
 					<div class="col-lg-5 offset-lg-3 col-sm-12">
-						<textarea class="form-control" rows="5" placeholder="Tell me a little about your project. Budget details are also appreciated. *" required></textarea>
+						<textarea class="form-control" rows="5" placeholder="Tell me a little about your project. Budget details are also appreciated. *" name="message" required></textarea>
 					</div><!--end col-->
 				</div><!--end row-->
-				<button type="submit" class="button">Submit</button>
+				<button type="submit" class="button" name="submit">Submit</button>
 			</form><!--end form-->
 			<p>* Required</p>
 		</div><!--end contact_container-->
