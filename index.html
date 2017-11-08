@@ -47,7 +47,7 @@
 			<div class="row">
 				<div class="text-center col-xl-12">
 					<img src="images/jorge.jpg" class="Jorge img-fluid">
-					<p class="jorgeInfo">- I'm a Web Developer based in NYC. I love creating websites and facing challenges head on.<br> My passion for web development can be seen in my work.<br> Here are some of the things I offer:</p>
+					<p class="jorgeInfo">- I'm a Web Developer based in NYC. I love creating websites and facing challenges head on. Endless learning is my hobby and implementing what I have learned is my passion. Here are some of the things I offer:</p>
 				</div>
 			</div><!--end row-->
 			<div class="row text-center">
@@ -80,7 +80,7 @@
 							<dd>-CSS3</dd>
 							<dd>-JavaScript</dd>
 						<dt>Frameworks</dt>
-							<dd>-Bootstrap 4</dd>
+							<dd>-Bootstrap 3/4</dd>
 							<dd>-jQuery</dd>
 					</d1>
 				</div><!--end col-->
@@ -185,30 +185,29 @@
 			<form action="form_process.php" method="post" name="contact_form">
 				<div class="form-row">
 					<div class="col-lg-3 offset-lg-3 col-sm-12">
-						<input type="text" class="form-control" placeholder="First Name *" name="firstname" required>
+						<input type="text" class="form-control" placeholder="First Name *" name="firstname">
+						<span class="error"><?php= $firstName_error ?></span>
 					</div><!--end col-->
 					<div class="col-lg-3 col-sm-12">
-						<input type="text" class="form-control" placeholder="Last Name *" name="lastname" required>
+						<input type="text" class="form-control" placeholder="Last Name" name="lastname">
 					</div><!--end col-->
 				</div><!--end row-->
 				<div class="form-row">
 					<div class="col-lg-3 offset-lg-3 col-sm-12">
-						<input type="text" class="form-control" placeholder="Phone Number" name="number">
+						<input type="text" class="form-control" placeholder="Phone Number" name="phone">
+						<span class="error"><?php= $phone_error ?></span>
 					</div><!--end col-->
 					<div class="col-lg-3 col-sm-12">
-						<input type="email" class="form-control" placeholder="Email *" name="email" required>
-					</div><!--end col-->
-				</div><!--end row-->
-				<div class="form-row">
-					<div class="col-lg-3 offset-lg-3 col-sm-12">
-						<input type="text" class="form-control" placeholder="What is 5+2? *" name="security" required>
+						<input type="email" class="form-control" placeholder="Email *" name="email">
+						<span class="error"><?php= $email_error ?></span>
 					</div><!--end col-->
 				</div><!--end row-->
 				<div class="row">
 					<div class="col-lg-5 offset-lg-3 col-sm-12">
-						<textarea class="form-control" rows="5" placeholder="Tell me a little about your project. Budget details are also appreciated. *" name="message" required></textarea>
+						<textarea class="form-control" rows="5" placeholder="Tell me a little about your project. Budget details are also appreciated. *" name="message"></textarea>
 					</div><!--end col-->
 				</div><!--end row-->
+				<div class="success"><?php= $success; ?></div>
 				<button type="submit" class="button" name="submit">Submit</button>
 			</form><!--end form-->
 			<p>* Required</p>

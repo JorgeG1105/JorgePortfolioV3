@@ -186,6 +186,17 @@ h1,h2,h3,h4,h5,h6, .card h4 {
 	margin-top: 30px;
 }
 
+.error {
+	color: red;
+}
+
+.success {
+	color: #ff9966;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+}
+
 /*----------------------------------Footer Styles-----------------------------*/
 
 .footer {
@@ -238,11 +249,35 @@ h1,h2,h3,h4,h5,h6, .card h4 {
 	.card {
 		width: 15rem;
 	}
+
+	.contact .form-control {
+		margin-bottom: 15px;
+	}
+
+	.contact h2 {
+		font-size: 25px;
+	}
 }
 
 @media screen and (max-width: 360px) {
 	.WhatCanIDo h2 {
 		font-size: 40px;
+	}
+
+}
+
+@media screen and (max-width: 375px) {
+	.WhatCanIDo h2 {
+		font-size: 40px;
+	}
+
+	.contact .form-control {
+		margin: 0;
+		margin-bottom: 15px;
+	}
+
+	.contact h2 {
+		font-size: 30px;
 	}
 }
 
