@@ -186,17 +186,6 @@ h1,h2,h3,h4,h5,h6, .card h4 {
 	margin-top: 30px;
 }
 
-.error {
-	color: red;
-}
-
-.success {
-	color: #ff9966;
-	text-align: center;
-	font-weight: bold;
-	font-size: 14px;
-}
-
 /*----------------------------------Footer Styles-----------------------------*/
 
 .footer {

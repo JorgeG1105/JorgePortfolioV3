@@ -31,7 +31,7 @@
 	</header><!--End Header-->
 	<div class="Hero">
 		<div class="HeroContent">
-			<h1>Hi! I'm Jorge,<br>Full Stack Web Developer.<br>I Like Creating Things</h1>
+			<h1>Hi! I'm Jorge,<br>Full Stack Web Developer.<br>I Love Creating Things!</h1>
 			<a href="#letsTalk" class="scroll"><button class="button"><strong>Hire me!</strong></button></a>
 			<div class="WCIDbtn">
 				<a href="#whatCanIDo" class="scroll">
@@ -185,8 +185,7 @@
 			<form action="form_process.php" method="post" name="contact_form">
 				<div class="form-row">
 					<div class="col-lg-3 offset-lg-3 col-sm-12">
-						<input type="text" class="form-control" placeholder="First Name *" name="firstname">
-						<span class="error"><?php= $firstName_error ?></span>
+						<input type="text" class="form-control" placeholder="First Name *" name="firstname" required>
 					</div><!--end col-->
 					<div class="col-lg-3 col-sm-12">
 						<input type="text" class="form-control" placeholder="Last Name" name="lastname">
@@ -195,19 +194,16 @@
 				<div class="form-row">
 					<div class="col-lg-3 offset-lg-3 col-sm-12">
 						<input type="text" class="form-control" placeholder="Phone Number" name="phone">
-						<span class="error"><?php= $phone_error ?></span>
 					</div><!--end col-->
 					<div class="col-lg-3 col-sm-12">
-						<input type="email" class="form-control" placeholder="Email *" name="email">
-						<span class="error"><?php= $email_error ?></span>
+						<input type="email" class="form-control" placeholder="Email *" name="email" required>
 					</div><!--end col-->
 				</div><!--end row-->
 				<div class="row">
 					<div class="col-lg-5 offset-lg-3 col-sm-12">
-						<textarea class="form-control" rows="5" placeholder="Tell me a little about your project. Budget details are also appreciated. *" name="message"></textarea>
+						<textarea class="form-control" rows="5" placeholder="Tell me a little about your project. Budget details are also appreciated. *" name="message" required></textarea>
 					</div><!--end col-->
 				</div><!--end row-->
-				<div class="success"><?php= $success; ?></div>
 				<button type="submit" class="button" name="submit">Submit</button>
 			</form><!--end form-->
 			<p>* Required</p>
